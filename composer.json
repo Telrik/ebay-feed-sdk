@@ -1,0 +1,38 @@
+{
+    "name": "telrik/ebay-feed-sdk",
+    "description": "<p>The <strong>Feed API</strong> lets sellers upload input files, download reports and files including their status, filter reports using URI parameters, and retrieve customer service metrics task details.</p>",
+    "keywords": [
+        "openapitools",
+        "openapi-generator",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://openapi-generator.tech",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "OpenAPI-Generator contributors",
+            "homepage": "https://openapi-generator.tech"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^2.12"
+    },
+    "autoload": {
+        "psr-4": { "OpenAPI\\Client\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "OpenAPI\\Client\\Test\\" : "test/" }
+    }
+}
